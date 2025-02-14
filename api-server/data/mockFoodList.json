@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "categoryId": 3,
+        "name": "Carrot",
+        "price": 0.89,
+        "image": "carrot.fill"
+    },
+    {
+      "id": 2,
+      "categoryId": 3,
+      "name": "Apple",
+      "price": 0.89,
+      "image": "apple.logo"
+    },
+    {
+      "id": 3,
+      "categoryId": 2,
+      "name": "Hamburger",
+      "price": 0.89,
+      "image": "burn"
+    },
+    {
+      "id": 4,
+      "categoryId": 2,
+      "name": "Bacon",
+      "price": 0.89,
+      "image": "lasso.badge.sparkles"
+    },
+    {
+      "id": 5,
+      "categoryId": 1,
+      "name": "American Cheese",
+      "price": 0.89,
+      "image": "birthday.cake"
+    },
+    {
+      "id": 3,
+      "categoryId": 1,
+      "name": "2% Skim Milk",
+      "price": 1.89,
+      "image": "figure.play"
+    }
+]

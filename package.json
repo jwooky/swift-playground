@@ -1,0 +1,21 @@
+{
+  "name": "swift-playground-api-server",
+  "module": "commonjs",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "eslint": "^9.20.1",
+    "supertest": "^7.0.0",
+    "jest": "^29.7.0"
+  },
+  "scripts": {
+    "start": "node api-server/src/server.js",
+    "test": "jest"
+  },
+  "jest": {
+    "verbose": true,
+    "collectCoverage": true,
+    "coverageDirectory": "coverage"
+  }
+}

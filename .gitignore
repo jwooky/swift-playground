@@ -1,0 +1,35 @@
+.idea
+.DS_Store
+node_modules
+coverage
+
+# dotenv environment variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+## User settings
+xcuserdata/
+
+## Obj-C/Swift specific
+*.hmap
+
+## App packaging
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## Playgrounds
+timeline.xctimeline
+project.xcworkspace/
+.build/
+
+logs
+*.log
+pids
+*.pid
+*.seed
+*.pid.lock
+.eslintcache

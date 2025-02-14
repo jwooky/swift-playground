@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Milk / Dairy", 
+    "icon": "cat-milk-dairy"
+  },
+  {
+    "id": 2,
+    "name": "Chicken / Beef / Pork", 
+    "icon": "cat-farm-animals"
+  },
+  {
+    "id": 3,
+    "name": "Fruits / Vegetables", 
+    "icon": "cat-fruit-vegtables"
+  }
+]
