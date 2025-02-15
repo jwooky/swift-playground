@@ -2,7 +2,7 @@ name: Build and Test Swift Playgroud
 run-name: ${{ github.actor }} has launched a build
 on: [push]
 jobs:
-  Test API Server:
+  TestAPIServer:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
