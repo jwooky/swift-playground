@@ -35,7 +35,9 @@ router.get("/foods/:id", (req, res) => {
 });
 
 router.get("/food-categories", (req, res) => {
-  res.send(foodCategoryList).end();
+  setTimeout(() => {
+    res.send(foodCategoryList).end();
+  }, waitTime);
 });
 
 module.exports = router;
