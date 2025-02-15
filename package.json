@@ -1,17 +1,22 @@
 {
   "name": "swift-playground-api-server",
-  "module": "commonjs",
+  "type": "commonjs",
+  "main": "api-server/src/server.js",
   "dependencies": {
     "express": "^4.21.2"
   },
   "devDependencies": {
     "eslint": "^9.20.1",
-    "supertest": "^7.0.0",
-    "jest": "^29.7.0"
+    "eslint-config-prettier": "^10.0.1",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.9",
+    "supertest": "^7.0.0"
   },
   "scripts": {
+    "dev": "nodemon --watch api-server api-server/src/server.js",
     "start": "node api-server/src/server.js",
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint ."
   },
   "jest": {
     "verbose": true,

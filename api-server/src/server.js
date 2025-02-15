@@ -1,12 +1,18 @@
-"use-strict"
-const express = require('express');
-const app = express();
+/* global require, console */
+
+"use strict";
+
+const express = require("express");
+const routes = require("./routes.js");
+
+const protocol = "http";
+const hostname = "127.0.0.1";
 const port = 8080;
-const routes = require('./routes');
 
-app.use('/', routes);
+const app = express();
+app.use("/", routes);
 
-app.listen(port, () => {
-  // const address = server.address();
-  console.log(`Example app listening on port: ${port}`)
+app.listen(port, hostname, () => {
+  const msg = `Mock API Server listening on ${protocol}://${hostname}:${port}`;
+  console.log(msg);
 });
