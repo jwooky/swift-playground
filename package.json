@@ -2,6 +2,7 @@
   "name": "swift-playground-api-server",
   "type": "commonjs",
   "main": "api-server/src/server.js",
+  "version": "0.1",
   "dependencies": {
     "express": "^4.21.2"
   },
